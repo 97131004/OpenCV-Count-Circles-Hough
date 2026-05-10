@@ -1,6 +1,6 @@
 # Count Circles Hough
 
-Tool to count the number of circles in a 2D image (view from above) using Circle Hough Transform (CHT) + visualization. For this, an edge detection algorithm is first applied on the source image. Binning and spacing algorithms are then used to eliminate overlapping circles.
+This project implements the Hough Circle Transform (HCT) algorithm using OpenMPI to perform distributed image processing. By splitting the computational workload across multiple processes and threads, it significantly reduces the time required to detect circles in high-resolution images. This tool counts and visualizes the number of circles in a 2D image (view from above) using HCT. An edge detection algorithm is first applied on the source image. Binning and spacing algorithms are then used to eliminate overlapping circles.
 
 ![screenshot](https://github.com/97131004/Count-Circles-Hough/blob/main/screenshot.jpg?raw=true)
 
