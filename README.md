@@ -1,4 +1,4 @@
-# Count Circles Hough
+# OpenCV: Count Circles Hough
 
 This project implements the Hough Circle Transform (HCT) algorithm using OpenMPI to perform distributed image processing. By splitting the computational workload across multiple processes and threads, it significantly reduces the time required to detect the number of circles in high-resolution 2D images (view from above). An edge detection algorithm is first applied on the source image. Binning and spacing algorithms are then used to eliminate overlapping circles.
 
